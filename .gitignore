@@ -1,0 +1,22 @@
+# --- Project Specific ---
+# Ignore the large Landsat data downloads
+landsat_downloads/
+
+# Ignore temporary/scratchpad notebooks
+temp.ipynb
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
